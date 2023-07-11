@@ -11,7 +11,7 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .container {
@@ -29,7 +29,7 @@ body {
   overflow: hidden;
 }
 
-.fa-solid.fa-rotate{
+.fa-solid.fa-rotate {
   color: rgb(0, 0, 0);
   display: inline-block;
   margin-left: 60%;
@@ -42,7 +42,7 @@ body {
 .add {
   display: flex;
   align-items: center;
-  justify-content:flex-start;
+  justify-content: flex-start;
   height: 50px;
   width: calc(100% - 40px);
   padding: 0 20px;
