@@ -117,10 +117,6 @@ npx stylelint "*/.{css,scss}"
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
-- GitHub: [@Zelalem](https://github.com/Zelalem)
-- LinkedIn: [@eZelalem](https://www.linkedin.com/in/zelalem-62aa081a1/)
-
 Feel free to check the [issues page].
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
