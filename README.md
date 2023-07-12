@@ -67,11 +67,11 @@ webpack configuration
 
 ### Install
 
-Install this project with: -Git clone on your cd Desktop using my repository link above
+Install this project with: -
 
-### Usage
-
--To run the project, copy its path and run it on your online server.
+- git clone git@github.com:GhostEsso/toDoList.git
+- npm install to install all the dependencies
+- npm start to start the project on the browser
 
 ### Run tests
 
