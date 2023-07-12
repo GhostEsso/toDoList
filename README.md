@@ -28,7 +28,9 @@
 
 # 📖 [Today's To Do List] <a name="about-project"></a>
 
-A simple Todo List app.
+A Todo List app.
+
+Our application is a Todo List app that allows users to create, view, update, and delete tasks. Users can add tasks by entering a description and clicking the "Add" button. The task list is displayed, showing each task with a checkbox and options to edit or delete.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,10 +47,6 @@ A simple Todo List app.
 1. Mark tasks as complete: Add functionality that allows users to mark tasks as completed. This can be done by adding a checkbox next to each task and updating its status accordingly.
 
 2. Delete Tasks: Allow users to delete tasks from the list after they are completed or no longer relevant. You can add a trash can icon next to each task to allow deletion.
-
-3. Task sorting: Add the ability to sort tasks by different criteria, such as alphabetical order, date added, completion status, etc. It will help users organize their to-do list more conveniently.
-
-4. Filter tasks: Allow users to filter tasks based on different criteria, such as showing only completed tasks, unfinished tasks, priority tasks, etc.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,8 +93,13 @@ npx stylelint "\*/.{css,scss}"
 
 ## 🔭 Future Features <a name="future-features">
 
-- Add more style with CSS;
-- Create contact form.
+Some potential future features that can be added to our Todo List app are:
+
+1. Task categories or labels: Allow users to categorize tasks into different labels or categories for better organization.
+
+2. Task reminders or notifications: Implement a reminder system to notify users of upcoming or overdue tasks.
+
+3. User authentication and user-specific task lists: Create user accounts and enable users to have their own personalized task lists, accessible across devices.
 
 </a>
 
