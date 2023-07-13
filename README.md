@@ -30,7 +30,7 @@
 
 A Todo List app.
 
-Our application is a Todo List app that allows users to create, view, update, and delete tasks. Users can add tasks by entering a description and clicking the "Add" button. The task list is displayed, showing each task with a checkbox and options to edit or delete.
+Our application is a Todo List app that allows users to create, view, update, and delete tasks. Users can add tasks by entering a description and clicking the "Add" button. The task interactive list is displayed, showing each task with a checkbox and options to edit or delete.
 
 ## 🛠 Built With <a name="built-with"></a>
 
