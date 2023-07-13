@@ -61,6 +61,7 @@ const generateTaskList = () => {
     checkbox.checked = task.completed;
     checkbox.addEventListener('change', () => {
       updateTaskStatus(index, checkbox.checked);
+      generateTaskList();
     });
 
     const taskDescription = document.createElement('span');
@@ -70,17 +71,32 @@ const generateTaskList = () => {
       editTaskDescription(index, taskDescription.textContent);
     });
 
-    const deleteButton = document.createElement('button');
-    deleteButton.textContent = 'Delete';
-    deleteButton.classList.add('delete-button');
-    deleteButton.addEventListener('click', () => {
+    const actionsContainer = document.createElement('div');
+    actionsContainer.classList.add('actions-container');
+
+    const optionsIcon = document.createElement('i');
+    optionsIcon.classList.add('fas', 'fa-ellipsis-v');
+    optionsIcon.addEventListener('click', () => {
+      // Fonctionnalité des trois points à implémenter
+    });
+
+    const deleteIcon = document.createElement('i');
+    deleteIcon.classList.add('fas', 'fa-trash');
+    deleteIcon.addEventListener('click', () => {
       deleteTask(index);
       generateTaskList();
     });
 
+    // Gérer l'affichage des icônes en fonction de l'état de la tâche
+    if (task.completed) {
+      actionsContainer.appendChild(deleteIcon);
+    } else {
+      actionsContainer.appendChild(optionsIcon);
+    }
+
     taskItem.appendChild(checkbox);
     taskItem.appendChild(taskDescription);
-    taskItem.appendChild(deleteButton);
+    taskItem.appendChild(actionsContainer);
 
     taskListElement.appendChild(taskItem);
   });

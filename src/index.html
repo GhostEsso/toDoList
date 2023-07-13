@@ -14,9 +14,15 @@
         </div>
         <div class="add">
           <input type="text" class="task-input" placeholder="Add to your list..">
-          <button class="add-button">Add</button>
+          <button class="add-button">
+            <i class="fas fa-plus"></i>
+          </button>
         </div>
-        <ul class="to-do-group"></ul>
+        <ul class="to-do-group">
+          <li class="task-item" draggable="true">
+            <!-- Le contenu de la tâche -->
+          </li>          
+        </ul>
         <button type="button" class="clear-list">
           <span>Clear all completed</span>
         </button>
