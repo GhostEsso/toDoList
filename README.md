@@ -14,6 +14,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+    - [Live Demo ](#live-demo- )
   - [💻 Getting Started ](#-getting-started-)
     - [setup](#setup)
     - [Install](#install)
@@ -47,6 +48,12 @@ Our application is a Todo List app that allows users to create, view, update, an
 1. Mark tasks as complete: Add functionality that allows users to mark tasks as completed. This can be done by adding a checkbox next to each task and updating its status accordingly.
 
 2. Delete Tasks: Allow users to delete tasks from the list after they are completed or no longer relevant. You can add a trash can icon next to each task to allow deletion.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://ghostesso.github.io/toDoList/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
