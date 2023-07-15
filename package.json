@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist",
+    "test": "echo\"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
     "build": "webpack",
     "watch": "watch 'npm start' src"
@@ -12,7 +12,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://ghostesso.github.io/toDoList",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
