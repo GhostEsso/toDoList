@@ -116,6 +116,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const input = document.querySelector('.task-input');
   const clearButton = document.querySelector('.clear-list');
 
+  // Événement lors de l'appui sur la touche "Entrée"
+input.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    const description = input.value.trim();
+    if (description !== '') {
+      addTask(description);
+      input.value = '';
+      generateTaskList();
+    }
+  }
+});
+
   addButton.addEventListener('click', () => {
     const description = input.value.trim();
     if (description !== '') {
